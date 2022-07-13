@@ -341,9 +341,6 @@ OUR CLIENTS
 .our-clients-list-elem {
   width: 170px;
   height: 92px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: rgba(175, 177, 184, 1) 1px solid;
   border-radius: 4px;
   fill: #afb1b8;
@@ -372,15 +369,11 @@ footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
-  display: flex;
-  justify-content: center;
 }
 footer .section {
   padding: 60px 0px;
 }
 footer .container {
-  display: flex;
-  align-items: flex-start;
   flex-direction: row;
   column-gap: 70px;
 }
@@ -392,7 +385,6 @@ footer .container {
   align-items: flex-start;
 }
 .footer-social-links {
-  align-self: center;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -410,11 +402,8 @@ footer .container {
 .footer-social-links-list li a {
   width: 44px;
   height: 44px;
-  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: none;
   fill: var(--white-color);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -464,6 +453,8 @@ footer .container {
 }
 .portfolio-buttons-elem:focus {
   border-color: var(--background-dark-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-buttons-elem:hover {
   background: var(--brand-blue-color);
