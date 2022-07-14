@@ -158,7 +158,7 @@ header {
 .btn-order:hover {
   cursor: pointer;
   background-color: var(--white-color);
-  color: var(--brand-blue-color);
+  color: var(--almost-black-font-color);
 }
 
 h1 {
