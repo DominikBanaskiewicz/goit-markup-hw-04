@@ -157,8 +157,6 @@ header {
 }
 .btn-order:hover {
   cursor: pointer;
-  background-color: var(--white-color);
-  color: var(--almost-black-font-color);
 }
 
 h1 {
@@ -188,6 +186,8 @@ MAIN CONTENT
 .main-content {
   display: flex;
   flex-direction: column;
+  padding: 0px;
+  margin: 94px auto;
 }
 .main-content-list {
   display: flex;
@@ -230,7 +230,7 @@ MAIN CONTENT
  ABOUT US
  */
 .about-us {
-  padding-top: 94px;
+  padding: 0px;
 }
 .about-us h2 {
   text-align: center;
@@ -335,6 +335,11 @@ OUR TEAM
 OUR CLIENTS
 
 */
+.our-clients {
+  padding: 0px;
+  margin: 94px 0px;
+}
+
 .our-clients-list {
   display: flex;
   column-gap: 30px;
