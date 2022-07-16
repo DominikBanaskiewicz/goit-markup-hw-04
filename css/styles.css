@@ -199,7 +199,7 @@ MAIN CONTENT
   font-size: 14px;
   line-height: 16.41px;
   color: var(--almost-black-font-color);
-  padding-bottom: 10px;
+  padding: 30px 0px 10px 0px;
 }
 .main-content-list-elem > p {
   font-weight: 400;
@@ -283,7 +283,7 @@ OUR TEAM
   flex-direction: column;
   gap: 10px;
   margin-top: 30px;
-  margin-bottom: 9px;
+  margin-bottom: 16px;
 }
 
 .our-team-elem > h3 {
